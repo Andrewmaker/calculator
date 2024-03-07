@@ -23,7 +23,7 @@ public final class App {
         } catch (NumberFormatException e){
         System.out.println("Не удалось получить число из "+str);
         }
-            
+       //проверка     
         try{
             num2 = Integer.parseInt(members[2]);
         } catch (NumberFormatException e){
